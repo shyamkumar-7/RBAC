@@ -9,7 +9,7 @@ const dbConnect = async () => {
     console.log(`databse connected : ${connect.connection.host} , ${connect.connection.name} `)
   } catch (error) {
     console.error('Database connection failed:', error);
-    process.exit(1); // Exit process with failure
+    process.exit(1); 
   }
 };
 
